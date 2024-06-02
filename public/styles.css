@@ -1,0 +1,122 @@
+/* Reset default browser styles */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+
+/* Styles for blog posts */
+#newpost{
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-color: #333;
+    
+}
+#newpost a {
+    text-decoration: none;
+    color: white;
+}
+.newpostflex{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+.post {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.post p {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.post .editdelet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+label{
+    margin-left: 18%;
+}
+.save{
+    margin-top: 30px;
+    
+    margin-left: 60%;
+}
+#go{
+    margin-left: 30px;
+}
+#title ,#content{
+    width: 60%;
+    margin-left: 20%;
+}
+input[type="text"],
+textarea {
+    
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#content{
+    height: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
